@@ -139,11 +139,23 @@ header {
   padding: 0.8rem;
   border: 1px #d3d3d35c solid;
   display: block;
-
-  /* background: gray; */
   background-color: #d3d3d3;
   opacity: 0.8;
   border-radius: 10px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .nav-toggle {
@@ -164,6 +176,11 @@ header {
   font-weight: 700;
   cursor: pointer;
   background: gray;
+}
+
+#nav-container2 #nav-toggle,
+.ri-menu-fill {
+  display: none;
 }
 
 .ri-close-fill {
@@ -457,6 +474,10 @@ hr {
     display: none;
   }
 
+  .ri-close-fill {
+    display: none;
+  }
+
   .homepage {
     margin-top: 10%;
     padding: 5%;
@@ -517,6 +538,7 @@ hr {
   }
 
   .nav-list2 {
+    visibility: visible;
     display: flex;
     justify-content: space-evenly;
     height: auto;
@@ -527,7 +549,7 @@ hr {
   }
 
   .nav-list2 li a {
-    color: #000;
+    color: #292a2b;
     font-size: 1.25rem;
   }
 
