@@ -29,7 +29,7 @@ body {
 }
 
 .nav-list2 {
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 2rem;
   background-color: #272a31;
@@ -108,11 +108,23 @@ header {
   padding: 0.8rem;
   border: 1px #d3d3d35c solid;
   display: block;
-
-  /* background: gray; */
   background-color: #d3d3d3;
   opacity: 0.8;
   border-radius: 10px;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 
 .nav-toggle {
@@ -136,7 +148,7 @@ header {
 }
 
 .ri-close-fill {
-  display: none;
+  display: block;
   position: relative;
   left: 85%;
   text-decoration: none;
@@ -150,6 +162,10 @@ header {
 .ri-menu-fill:hover,
 .ri-close-fill:hover {
   color: #d3d3d3;
+}
+
+.clicks {
+  list-style: none;
 }
 
 .date {
@@ -251,9 +267,18 @@ hr {
   padding-top: 5%;
 }
 
+#flex-chef {
+  display: flex;
+  gap: 4%;
+}
+
 .chefs {
   display: flex;
   gap: 4%;
+}
+
+.more {
+  display: none;
 }
 
 .portfolio {
@@ -265,22 +290,22 @@ hr {
 .portfolio h3 {
   color: #ec5242;
   font-size: 1.25rem;
-  padding-top: 3%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .portfolio .intro {
   color: #ec5242;
   font-size: 0.8rem;
-
-  /* width: 100%; */
   font-style: italic;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
 }
 
 .portfolio .main {
   color: #000;
   font-size: 1rem;
   font-weight: 400;
+  padding-top: 5%;
 }
 
 .portfolio hr {
@@ -288,10 +313,6 @@ hr {
   background-color: #414246;
   align-self: flex-start;
   margin-left: -0.5%;
-}
-
-.more {
-  display: none;
 }
 
 .enquries-container {
@@ -373,6 +394,12 @@ hr {
   padding: 0.6rem;
 }
 
+.hidden img {
+  padding: 15px;
+  width: 170px;
+  height: 200px;
+}
+
 .nav-logo2 a img {
   color: rgb(14, 13, 13);
 }
@@ -421,6 +448,7 @@ hr {
     display: none;
   }
 
+  #nav-container2 #nav-toggle,
   .ri-menu-fill {
     display: none;
   }
@@ -463,6 +491,10 @@ hr {
     height: auto;
     background-color: #292a2b;
     padding: 0.5% 6%;
+  }
+
+  .ri-close-fill {
+    display: none;
   }
 
   .nav-list1 {
@@ -553,6 +585,7 @@ hr {
     align-items: center;
     padding-top: 2%;
     padding-bottom: 20px;
+    padding-left: 16%;
   }
 
   .more {
@@ -570,7 +603,7 @@ hr {
     height: 125px;
   }
 
-  .portfolio .main .intro {
+  .portfolio .main {
     flex-wrap: wrap;
     width: 450px;
   }
@@ -643,5 +676,11 @@ hr {
     border: 5px solid #ec5242;
     margin: 1rem;
     padding: 10px;
+  }
+
+  #flex-chef {
+    display: flex;
+    flex-direction: column;
+    gap: 4%;
   }
 }
