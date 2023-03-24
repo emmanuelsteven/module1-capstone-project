@@ -18,28 +18,29 @@
 - [🙏 Acknowledgements](#acknowledgements)
 - [📝 License](#license)
 
-# 📖 Portfolio-setup
+# 📖 Module1-Capstone-Project
 
-**[Module1-Capstone-Project]** is a simple HTML,CSS and JavaScript responsive webpage designed as  mobile version first, with flex and grid  properties to enhance its responsiveness,from module 1  Microverse Project,in this project,I set up a new repository, there were no complex coding is required however the  goal was to master all of the tools and best practices learned about in previous steps.
+**[Bole Community Festival]** is a  webpage designed for the prestigious annual Bole Festival in Sourthen Nigeria,I building this website I tried to demonstrate most of the fundmental knowlegded acquired during this Moudle 1 and these include  HTML,CSS and JavaScript the website is built to be 100% responsive webpage ,designed considering both accessiblity giving a complete and easy user experience, mobile first approach was adopted , with flex and grid  properties to enhance its responsiveness, lastly a little bit of text animations to enhance it's UI .
 
-[intro video.] (https://www.loom.com/share/b92e2c45c3c842d8b668de67d52c2e21)
+[intro video.] (https://www.loom.com/share/b76a8420e48f4abdb56b9d34482546db)
 
 ## 🛠 Built With 
 1.HTML
 2.CSS
+3.JavaScript.
 
 
 ### Tech Stack  FrontEnd
 
 ### Key Features 
 
-- **[There is a navigation bar at the heade section]**
-- **[the body having icons,buttons and other CSS styling ]**
-- **[It also has section where we had contact form and textarea comment box for fedbackse]**
+- **[Text animations ]**
+- **[Dynamically adding Html files through JavaScript]**
+- **[it has both a Homepage and an about page linked together]**
 
 ## 🚀 Live Demo 
 
-- [Live Demo Link]( https://emmanuelsteven.github.io/Portfolio/)
+- [Live Demo Link]( https://emmanuelsteven.github.io/module1-capstone-project/)
 
 ## 💻 Getting Started 
  
@@ -48,7 +49,7 @@ To get a local copy up and running, follow these steps.
 ### Prerequisites
 
 In order to run this project you need:
-1. Knowledge HTML and CSS
+1. Knowledge HTML and CSS and JavaScript.
 
 2. VSCode or other text editor installed. [Link to download VSCode](https://code.visualstudio.com/download)
 
@@ -84,17 +85,6 @@ To run tests, run the following command:
 - Twitter:[@CjayStev](https://twitter.com/CjayStev)
 - LinkedIn:[steven-emmanuel](https://www.linkedin.com/in/steven-emmanuel-75a03a141/)
 
-👤 **Author2**
-
-- GitHub: [samuel_lemma](https://github.com/sam2if)
-- Twitter: [samuel_lemma](https://twitter.com/samuellemma3733)
-- LinkedIn: [samuel_lemma](https://www.linkedin.com/in/samuel-lemma-7479b1214/)
-
-👤 **Sheldon**
-
-- GitHub: [@sheldon](https://github.com/githubhandle)
-- Twitter: [@sheldon](https://twitter.com/twitterhandle)
-- LinkedIn: [sheldon](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing 
 
@@ -110,8 +100,8 @@ Feel free to check the [issues page](../../issues/).
 2. My brother Victor 
 3. my coding partner for week-two
 4. my coding friends;spencer okyere,and kingsley onele
-5. Lawrence Amoafo.
-6.  Yinka
+5. collins Bawa.(Captain Bawa)
+6 [credit go to for their amazing design template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
 
 ## 📝 License 
 
