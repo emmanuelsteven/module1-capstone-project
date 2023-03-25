@@ -22,7 +22,7 @@
 
 **[Bole Community Festival]** is a  webpage designed for the prestigious annual Bole Festival in Sourthen Nigeria,I building this website I tried to demonstrate most of the fundmental knowlegded acquired during this Moudle 1 and these include  HTML,CSS and JavaScript the website is built to be 100% responsive webpage ,designed considering both accessiblity giving a complete and easy user experience, mobile first approach was adopted , with flex and grid  properties to enhance its responsiveness, lastly a little bit of text animations to enhance it's UI .
 
-[intro video.] (https://www.loom.com/share/b76a8420e48f4abdb56b9d34482546db)
+[intro video.] (https://www.loom.com/share/9ae6dc2079fb4f0cb0724da78b15c169)
 
 ## 🛠 Built With 
 1.HTML
