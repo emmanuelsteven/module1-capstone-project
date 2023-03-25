@@ -96,12 +96,10 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments 
 
-1. Microverse Sucess Team
-2. My brother Victor 
-3. my coding partner for week-two
-4. my coding friends;spencer okyere,and kingsley onele
-5. collins Bawa.(Captain Bawa)
-6 [credit go to for their amazing design template](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+1. My brother Victor f
+2. my coding friends;spencer okyere,and kingsley onele
+3. collins Bawa.(Captain Bawa)
+4 .Many thanks to Cindy Shin (author of the design template was used a model for this website)
 
 ## 📝 License 
 

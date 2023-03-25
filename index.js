@@ -44,29 +44,29 @@ const bolechefs = document.querySelector('.chefz');
 const featuredChefs = [
   {
     name: 'chef Agabus Agboye',
-    portfolio: 'Chef Agabus Agboye CEO chow country,converner Beans & Buddies.',
+    portfolio: 'Chef Agabus Agboye CEO chow country.',
     about: 'Agabus Aboye (born 17 AUg 1991) is an English celebrity chef. He is best known for his annual "Beans & Buddies", he has hosted in the past decade.',
     image: './img/gabus.png',
     id: 'flex-chef',
   },
   {
     name: 'chef Fregz',
-    portfolio: 'Gbubemi Fregene, better known as Chef Fregz, is a Nigerian chef.',
-    about: 'Gbubemi Fregene was born in Abeokuta. He grew up in Benin City. He studied Industrial relations and human resource management at Covenant University and cuisine at Le Cordon Bleu Culinary Institute, France',
+    portfolio: 'Gbubemi Fregene, better known as Chef Fregz.',
+    about: 'Gbubemi Fregene was born in Abeokuta. He grew up in Benin City. He studied cuisine at Le Cordon Bleu Culinary Institute, France',
     image: './img/cheffreg.png',
     id: 'flex-chef',
 
   },
   {
     name: 'chef Ehis',
-    portfolio: 'Chef Ehis founder of ECCA culinary arts school located in Lagos, Nigeria.',
+    portfolio: 'Chef Ehis founder of ECCA culinary arts.',
     about: 'Head chef @Ehis Gourmets, product developer , recipes formulation, menu design ,five star fine dinning concept, team building ,kitchen design,opening and post opening of restaurant.All meal are made from the finest ingredients .',
     image: './img/chefehis.png',
     type: 'more',
   },
   {
     name: 'chef Tahir Muneera',
-    portfolio: 'Professional chef and also a Chef Instructor at Red Dish Chronicles.',
+    portfolio: 'Professional chef Instructor at Red Dish Chronicles.',
     about: 'uneera Tahir (Chef Muse) went on to complete a Diploma in Cuisine and Patisserie at Red Dish Chronicles (RDC) in 2016. After completing her Diploma at RDC, Chef Muse got an internship at L’italiano Restaurant, London and rose rapidly to the position of Head Chef of L’Italiano Restaurant.',
     image: './img/chefmuse.png',
     type: 'more',
@@ -81,7 +81,7 @@ const featuredChefs = [
   },
   {
     name: 'chef Ngozika',
-    portfolio: 'Ngozika is chef from eastern Nigeria, with 30 years experience in bole making.',
+    portfolio: 'Ngozika CEO juvenik.',
     about: ' Ngozika is seasoned chef that has traversed the breadth an length of Africa making bole in big events.',
     image: './img/chef6.png',
     type: 'more',

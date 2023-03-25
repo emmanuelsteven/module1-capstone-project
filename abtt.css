@@ -1,4 +1,3 @@
-
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,400;1,700&family=Poppins&family=Roboto:wght@400;500;700;900&display=swap");
 
 :root {
@@ -45,8 +44,10 @@ body {
 }
 
 .logo img {
-  width: 100%;
+  width: 80%;
   padding: 10px;
+  background: #f3f3f3;
+  margin-left: 2.5rem;
 }
 
 .partners-logo img {
@@ -66,8 +67,12 @@ body {
 .flex-nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.2rem;
-  height: 4rem;
+  padding: 0.4rem;
+  height: 3rem;
+  background: #d3d3d3;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 }
 
 .nav-list2 {
@@ -174,13 +179,10 @@ header {
 }
 
 .ri-menu-fill {
-  border: 1.5px solid #292a2b;
-  border-radius: 10px;
   color: #292a2b;
   font-size: 2.5rem;
   font-weight: 700;
   cursor: pointer;
-  background: gray;
 }
 
 .ri-close-fill {
@@ -249,8 +251,8 @@ hr {
 
 .prog p {
   color: #fff;
-  font-size: 1.1rem;
-  width: 50%;
+  font-size: 0.8rem;
+  width: 40%;
   text-align: start;
 }
 
@@ -430,6 +432,7 @@ hr {
 
 .company p {
   color: #000;
+  font-size: 1rem;
 }
 
 .nav-container1 {
@@ -446,7 +449,7 @@ hr {
 .phbole h2 {
   color: #292a2b;
   padding-bottom: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .phbole p {
@@ -488,12 +491,14 @@ hr {
   }
 
   .homepage h1 {
-    font-size: 4rem;
+    font-size: 4.5rem;
     padding-bottom: 4%;
+    line-height: 4.5rem;
+    text-align: center;
   }
 
   .homepage p {
-    font-size: 1.5rem;
+    font-size: 1rem;
     line-height: 2rem;
     padding: 1rem;
     border: 2px #d3d3d35c solid;
@@ -501,6 +506,9 @@ hr {
     background-color: #d3d3d3;
     opacity: 0.9;
     border-radius: 1rem;
+    width: 60%;
+    text-align: center;
+    margin-left: 20rem;
   }
 
   .nav-container1 {
@@ -551,6 +559,9 @@ hr {
   .nav-list2 li a {
     color: #292a2b;
     font-size: 1.25rem;
+  }
+  .nav-list2 li a:hover {
+    color: green;
   }
 
   .clicklogo {
@@ -667,11 +678,13 @@ hr {
   .phbole h2 {
     color: #292a2b;
     padding-bottom: 1rem;
+    font-size: 1.5rem;
   }
 
   .phbole p {
     color: #292a2b;
     padding-top: 1.25rem;
+    line-height: 1.25rem;
   }
 
   .phbole hr {
@@ -679,9 +692,9 @@ hr {
   }
 
   .logo img {
-    width: 40%;
-    border: 1px gray solid;
-    margin-left: 3rem;
+    width: 28%;
+    margin-left: 38rem;
+    background: #f3f3f3;
   }
 
   .more-p {
@@ -734,11 +747,27 @@ hr {
   }
 
   .partners-logo img {
-    width: 10%;
+    width: 6%;
+    margin-top: 2%;
+    margin-bottom: 3%;
   }
 
   .company {
-    display: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 34%;
+    margin-top: 5rem;
+  }
+
+  .company img {
+    width: 10%;
+  }
+
+  .company p {
+    color: #000;
+    font-size: 1.2rem;
   }
 
   .clicks {

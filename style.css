@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter&family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,400;1,700&family=Poppins&family=Roboto:wght@400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Poppins&display=swap");
 
 :root {
   --ff-primary: "Lato", sans-serif;
@@ -24,8 +24,12 @@ body {
 .flex-nav {
   display: flex;
   justify-content: space-between;
-  padding: 1.2rem;
-  height: 4rem;
+  padding: 0.4rem;
+  height: 3rem;
+  background: #d3d3d3;
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
 }
 
 .nav-list2 {
@@ -138,13 +142,10 @@ header {
 }
 
 .ri-menu-fill {
-  border: 1.5px solid #292a2b;
-  border-radius: 10px;
   color: #292a2b;
   font-size: 2.5rem;
   font-weight: 700;
   cursor: pointer;
-  background: gray;
 }
 
 .ri-close-fill {
@@ -225,8 +226,8 @@ hr {
 
 .prog p {
   color: #fff;
-  font-size: 1rem;
-  width: 41%;
+  font-size: 0.8rem;
+  width: 40%;
   text-align: start;
 }
 
@@ -269,7 +270,7 @@ hr {
 
 #flex-chef {
   display: flex;
-  gap: 4%;
+  /* gap: 4%; */
 }
 
 .chefs {
@@ -284,19 +285,19 @@ hr {
 .portfolio {
   display: flex;
   flex-direction: column;
-  gap: 4%;
+  /* gap: 4%; */
 }
 
 .portfolio h3 {
-  color: #ec5242;
-  font-size: 1.25rem;
+  color: #0e0d0d;
+  font-size: 1rem;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
 .portfolio .intro {
   color: #ec5242;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   font-style: italic;
   padding-bottom: 5%;
 }
@@ -539,6 +540,10 @@ hr {
     font-size: 1.25rem;
   }
 
+  .nav-list2 li a:hover {
+    color: green;
+  }
+
   .clicklogo {
     width: 40%;
     display: block;
@@ -580,16 +585,16 @@ hr {
   .chefz {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 3rem;
+    gap: 2rem;
     justify-content: center;
     align-items: center;
     padding-top: 2%;
-    padding-bottom: 20px;
-    padding-left: 16%;
+    padding-bottom: 10px;
+    padding-left: 8%;
   }
 
   .more {
-    display: block;
+    display: flex;
   }
 
   .chefs {
@@ -605,7 +610,7 @@ hr {
 
   .portfolio .main {
     flex-wrap: wrap;
-    width: 450px;
+    width: 375px;
   }
 
   .featured-chefs hr {
@@ -637,9 +642,9 @@ hr {
   }
 
   .partners-logo img {
-    width: 7%;
-    margin-bottom: 2%;
-    margin-top: 5%;
+    width: 6%;
+    margin-bottom: 3%;
+    margin-top: 2%;
   }
 
   .partners-logo {
@@ -654,18 +659,19 @@ hr {
   .company {
     display: flex;
     flex-direction: row;
-    padding: 2em;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    gap: 20%;
+    gap: 34%;
   }
 
   .company img {
-    width: 20%;
+    width: 8%;
+    padding: 10px;
   }
 
   .company p {
     color: #000;
+    font-size: 1.2rem;
   }
 
   .flex-nav {
@@ -680,7 +686,17 @@ hr {
 
   #flex-chef {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 4%;
+  }
+
+  .hidden {
+    display: flex;
+  }
+
+  .hidden img {
+    /* padding: 15px; */
+    width: 206px;
+    height: 209px;
   }
 }
