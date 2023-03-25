@@ -270,6 +270,7 @@ hr {
 
 #flex-chef {
   display: flex;
+
   /* gap: 4%; */
 }
 
@@ -285,6 +286,7 @@ hr {
 .portfolio {
   display: flex;
   flex-direction: column;
+
   /* gap: 4%; */
 }
 
@@ -469,14 +471,15 @@ hr {
   }
 
   .homepage p {
-    font-size: 1.5rem;
-    line-height: 2rem;
+    font-size: 1rem;
+    line-height: 1.5rem;
     padding: 1rem;
     border: 2px #d3d3d35c solid;
     color: #000;
     background-color: #d3d3d3;
     opacity: 0.9;
     border-radius: 1rem;
+    width: 80%;
   }
 
   .date {
@@ -662,6 +665,7 @@ hr {
     justify-content: center;
     align-items: center;
     gap: 34%;
+    padding-top: 10px;
   }
 
   .company img {
