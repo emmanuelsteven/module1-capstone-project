@@ -560,6 +560,7 @@ hr {
     color: #292a2b;
     font-size: 1.25rem;
   }
+
   .nav-list2 li a:hover {
     color: green;
   }
@@ -693,7 +694,7 @@ hr {
 
   .logo img {
     width: 28%;
-    margin-left: 38rem;
+    margin-left: 36rem;
     background: #f3f3f3;
   }
 
